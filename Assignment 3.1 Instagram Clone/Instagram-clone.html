@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Zeeshan Akram" description="Instagram clone" />
+    <title>Instagram</title>
+    <link rel="icon" type="image/x-icon" href="./assets/instagram-icon.png" />
+    <link rel="stylesheet" href="Instagram-clone.css">
+    <!--                       Font Family links              -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&family=Montserrat:wght@100;300;500;700;900& family=Open+Sans:wght@300;400;700&family=Roboto+Condensed:wght@300;500;400;700&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+    <!--                    Font Awesome CDN                  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--                     Bootstrap CDN link                     -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
+
+    <!--                 Owl carousel cdn links             -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <section class="row">
+                <!--                Logo and SideBar section                -->
+            <section class="col-2 Logo-SideBar">
+                <div class="sideBar_container">
+                    <div>
+                        <div class="logo_text_wrapper">
+                            <img alt="logo_text" src="./assets/Instagram-logo.svg">
+                        </div>
+                        <ul class="sideBar_items">
+                            <li><a>
+                                    <div class="sideBar_items_icon"><img alt="home-icon" src="./assets/Home-icon.svg"></div>
+                                    <p>Home</p>
+                                </a></li>
+                            <li><a>
+                                    <div class="sideBar_items_icon"><i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                    <p>Search</p>
+                                </a></li>
+                            <li><a>
+                                    <div class="sideBar_items_icon"><i class="fa-regular fa-compass"></i></div>
+                                    <p>Explore</p>
+                                </a></li>
+                            <li><a>
+                                    <div class="sideBar_items_icon"><img class="reels_icon" alt="reels_icon"
+                                            src="/assets/instagram-reels-icon.svg" />
+                                    </div>
+                                    <p>Reels</p>
+                                </a></li>
+                            <li><a>
+                                    <div class="sideBar_items_icon">
+                                        <i class="fa-brands fa-facebook-messenger"></i>
+                                        <span class="alert_count">2</span>
+                                    </div>
+                                    <p>Messages</p>
+                                </a></li>
+                            <li><a>
+                                    <div class="sideBar_items_icon"><i class="fa-regular fa-heart"></i></div>
+                                    <p>Notifications</p>
+                                </a></li>
+                            <li><a>
+                                    <div class="sideBar_items_icon"><i class="fa-regular fa-square-plus"></i>
+                                    </div>
+                                    <p>Create</p>
+                                </a></li>
+                            <li><a>
+                                    <div class="sideBar_items_icon"><img class="profile-photo" alt="home_icon"
+                                            src="./assets/profile.jpg" /></div>
+                                    <p>Profile</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="sideBar_footer">
+                        <div class="sideBar_items_icon"><img class="bars" alt="home_icon" src="./assets/Hamburer.svg" />
+                        </div>
+                        <p>More</p>
+                    </div>
+                </div>
+            </section>
+                <!--                Stories and Post section                -->
+            <section class="col-6 Stories-Post">
+                <div class="posts_container">
+                    <!-- <div class="mobile_view_search">
+                        <input class="input_tag" name="search" value="" placeholder="Search"></input>
+                    </div> -->
+                    <div class="stories_header">
+                        <div class="stories_box">
+                            <div class="outer-radius">
+                                <img src="/assets/profile.jpg" alt="">
+                            </div>
+                            <p>rajsaini7735</p>
+                        </div>
+                        <div class="stories_box">
+                            <div class="outer-radius">
+                                <img src="/assets/profile.jpg" alt="">
+                            </div>
+                            <p>anujstory</p>
+                        </div>
+                        <div class="stories_box">
+                            <div class="outer-radius">
+                                <img src="/assets/profile.jpg" alt="">
+                            </div>
+                            <p>devotee_m...</p>
+                        </div>
+                        <div class="stories_box">
+                            <div class="outer-radius">
+                                <img src="/assets/profile.jpg" alt="">
+                            </div>
+                            <p>_pragya01_7</p>
+                        </div>
+                        <div class="stories_box">
+                            <div class="outer-radius">
+                                <img src="/assets/profile.jpg" alt="">
+                            </div>
+                            <p>the__devot...</p>
+                        </div>
+                        <div class="stories_box">
+                            <div class="outer-radius">
+                                <img src="/assets/profile.jpg" alt="">
+                            </div>
+                            <p>ritikagauta...</p>
+                        </div>
+                    </div>
+        
+        
+                    <div class="single_post_container">
+                        <div class="single_post">
+                            <div class="post_header">
+                                <div class="post_profile_section_wrapper">
+
+                                    <div class="post_profile_section">
+                                        <div class="story_image_container">
+                                            <img class="story_profile" src="./assets/profile.jpg" />
+                                        </div>
+                                        <div class="post_name_location">
+                                            <h6 class="profile_name">gayri_anand <span>.7m</span></h6>
+                                            <p class="post_location">Taj_Mahal-Symbol of love</p>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="dots_wrapper">
+                                        <img class="dots" src="./assets/Dots.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post_image">
+                                <img class="w-100" src="./assets/Taj-Mahal.jpg" />
+                            </div>
+                            <div class="post_footer">
+                                <div class="action_items">
+                                    <div class="like">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <!-- <img alt="actions_like" src="./assets/Heart-instagram-like-icon-png.png" /> -->
+                                    </div>
+                                    <div class="chat">
+                                        <img alt="actions_comment" src="./assets/Chat-icon.jpg" />
+                                    </div>
+                                    <div class="share">
+                                        <img alt="actions_share" src="./assets/share-icon.jpg" />
+                                    </div>
+                                </div>
+                                <div class="save_btn">
+                                    <img alt="actions_bookmark" src="./assets/post-save-icon.jpg" />
+                                </div>
+                            </div>
+                            <h4 class="likes">9 likes</h4>
+                            <h4 class="profile-name">gaytri_anand <span># 💎🌠 </span></h4>
+                            <p class="view_commemt">View all 2 comments</p>
+                            <p class="add_comment">Add a comment...</p>
+                        </div>
+                        <div class="single_post">
+                            <div class="post_header">
+                                <div class="post_profile_section_wrapper">
+
+                                    <div class="post_profile_section">
+                                        <div class="story_image_container">
+                                            <img class="story_profile" src="./assets/profile.jpg" />
+                                        </div>
+                                        <div class="post_name_location">
+                                            <h6 class="profile_name">ayush_s_chaudhary <span>.16m</span></h6>
+                                            <p class="post_location">Lalitpur, Uttar Pradesh</p>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="dots_wrapper">
+                                        <img class="dots" src="./assets/Dots.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post_image">
+                                <img class="w-100" src="./assets/Nature-image.jpg" />
+                            </div>
+                            <div class="post_footer">
+                                <div class="action_items">
+                                    <div class="like">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <!-- <img alt="actions_like" src="./assets/Heart-instagram-like-icon-png.png" /> -->
+                                    </div>
+                                    <div class="chat">
+                                        <img alt="actions_comment" src="./assets/Chat-icon.jpg" />
+                                    </div>
+                                    <div class="share">
+                                        <img alt="actions_share" src="./assets/share-icon.jpg" />
+                                    </div>
+                                </div>
+                                <div class="save_btn">
+                                    <img alt="actions_bookmark" src="./assets/post-save-icon.jpg" />
+                                </div>
+                            </div>
+                            <h4 class="likes">9 likes</h4>
+                            <h4 class="profile-name">ayush_s_chaudhary <span># ☀️🌈 </span></h4>
+                            <p class="view_commemt">View all 2 comments</p>
+                            <p class="add_comment">Add a comment...</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </section>
+                <!--                Accounts and Suggestions section        -->
+            <section class="col-4 Accounts-Suggestions">
+
+                <div class="account_container">
+                    <div class="account_header_section">
+                        <div class="account_deatils">
+                            <img class="account_profile_image" src="./assets/profile.jpg" />
+                            <div class="account_description">
+                                <p class="account_user_name">Zeeshan_akram96</p>
+                                <p class="Real_Name">Zeeshan Akram</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="blue_label">Switch</p>
+                        </div>
+                    </div>
+                    <div class="suggestion_section">
+                        <div class="suggestion_header">
+                            <p class="Suggestion-for-you">Suggestion for you</p>
+                            <p class="See-All">See All</p>
+                        </div>
+                        <div class="account_header_section">
+                            <div class="account_deatils">
+                                <img class="account_profile_image" src="./assets/profile.jpg" />
+                                <div class="account_description">
+                                    <p class="account_user_name">i_harsh_i_kaushal_t</p>
+                                    <p class="Real_Name">Followed by _mr_perfect_0304+4 more</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="blue_label">Follow</p>
+                            </div>
+                        </div>
+                        <div class="account_header_section">
+                            <div class="account_deatils">
+                                <img class="account_profile_image" src="./assets/profile.jpg" />
+                                <div class="account_description">
+                                    <p class="account_user_name">anjali1122ch</p>
+                                    <p class="Real_Name">Followed by _kavita_maliya_</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="blue_label">Follow</p>
+                            </div>
+                        </div>
+                        <div class="account_header_section">
+                            <div class="account_deatils">
+                                <img class="account_profile_image" src="./assets/profile.jpg" />
+                                <div class="account_description">
+                                    <p class="account_user_name">varshney_amita</p>
+                                    <p class="Real_Name">Followed by yashi__varshney</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="blue_label">Follow</p>
+                            </div>
+                        </div>
+                        <div class="account_header_section">
+                            <div class="account_deatils">
+                                <img class="account_profile_image" src="./assets/profile.jpg" />
+                                <div class="account_description">
+                                    <p class="account_user_name">vanshi_2441</p>
+                                    <p class="Real_Name">Followed by soniya_verma__+2 more</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="blue_label">Follow</p>
+                            </div>
+                        </div>
+                        <div class="account_header_section">
+                            <div class="account_deatils">
+                                <img class="account_profile_image" src="./assets/profile.jpg" />
+                                <div class="account_description">
+                                    <p class="account_user_name">gopalbvashistha</p>
+                                    <p class="Real_Name">New to Instagram</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="blue_label">Follow</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="About-part">
+                        About - Help - Press - API - Jobs - Privacy - Terms - Locations - Language - Meta Varified
+                    </div>
+                    <div class="copyright-part">
+                        &copy; 2023 INSTAGRAM FROM META
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

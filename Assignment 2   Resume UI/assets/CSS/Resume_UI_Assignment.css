@@ -1,0 +1,1087 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-weight: 100;
+    margin: 30px auto;
+    margin-top: 80px;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+}
+.main{
+    background-color: rgb(241, 241, 241);
+    background-image: url(/assets/Images/Top-Back-ground-image.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.main .bars{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    background-color: rgb(66, 91, 231);
+}
+.main .bars .lines{
+    width: 60%;
+    height: 3px;
+    margin-top: 3px;
+    background-color: #fff;
+}
+.All-content{
+    padding: 60px 20px 20px 20px;
+}
+/*                  Profile section starts                */
+.profile_section{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 20px;
+}
+.profile_info{
+    /* width: 100%; */
+    padding: 20px;
+    background-color: #fff;
+}
+.profile_info img{
+    width: 100%;
+}
+.contact-info-details{
+    display: flex;
+    margin: 10px 0px;
+}
+.border-bottom{
+    border-bottom: 1px dotted gray;
+    padding-bottom: 10px;
+}
+.contact-info-details h4{  
+    width: 30%;
+}
+.contact-info-details h4 span{
+    background-color: rgb(66, 91, 231);
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 5px;
+}
+.contact-info-details p{
+    width: 70%;
+}
+.profile_disc{
+    padding: 20px;
+}
+.profile_disc .name{
+    font-size: 40px;
+    font-weight:100;
+    color: #858080;
+}
+.profile_disc h6{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 0px;
+}
+.profile_disc .social-icons{
+    padding: 10px 0px;
+}
+.profile_disc .social-icons span{
+    padding: 0px 5px;
+}
+.profile_disc .social-icons i{
+    font-size: 40px;
+    color: rgb(66, 91, 231);
+}
+.profile_disc p{
+    color: #858080;
+}
+.profile_disc .buttons{
+    padding: 10px 0px;
+}
+.profile_disc .buttons .CV{
+    font-size: 12px;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(66, 91, 231);
+    margin-right: 20px;
+}
+.profile_disc .buttons .contact{
+    font-size: 12px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(236, 234, 234);
+}
+/*                  Profile section Ends                  */
+/*                  Skills section starts                 */
+.skills_section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.professional_skills{
+    margin-bottom: 40px;
+    position: relative;
+}
+.personal_skills{
+    position: relative;
+}
+.skills_section h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.skills_section fieldset{ 
+    background-color: #fff;
+    padding: 40px 20px 20px 20px;
+    border: none;
+}
+.logo-img{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: -25px;
+}
+.logo-img img{
+    width: 50px;
+    border-radius: 50%;
+}
+.range{
+    width: 100%;
+    padding: 10px 0px 5px 0px;
+}
+.range::-webkit-slider-thumb{
+    transform: scale(2);
+}
+/*                  Skills section Ends                   */
+/*                  Experience section Starts                   */
+.experience{
+    display: flex;
+    padding-left: 20px;
+}
+.experience .Verical-line{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}
+.experience .line-with-circles{
+    padding: 0px 0px;
+    width: 10px;
+}
+.experience .line-with-circles .line-1{
+    width: 5px;
+    height: 5vh;
+    background-color: royalblue;
+}
+.experience .line-with-circles .line-2{
+    width: 5px;
+    height: 21%;
+    background-color: royalblue;
+}
+.experience .line-with-circles .line {
+    width: 5px;
+    height: 67%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.experience .line-with-circles .big-circle-1 {
+    height: 70px;
+    width: 70px;
+    background-color: royalblue;
+    transform: translate(-32px, 0px);
+    border-radius: 50%;
+}
+.experience .line-with-circles .big-circle-1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.experience .line-with-circles .small-circle {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: royalblue;
+    transform: translateX(-12px);
+    border-radius: 50%;
+}
+.experience .line-with-circles .small-circle img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.experience .line-with-circles .ex-year{
+    width: 100px;
+    transform: translate(30px, -32px);
+    background-color: royalblue;
+    color: white;
+    text-align: end;
+    padding: 5px;
+}
+.experience .experience-details{
+    width: 100%;
+    margin-left: 30px;
+    padding: 90px 10px 10px 10px;
+}
+.experience .experience-details .experience-desc{
+    margin: 10px;
+    margin-top: 60px;
+    background-color: #fff;
+    padding: 10px;
+}
+.experience .experience-details .experience-desc h4{
+    padding-bottom: 5px;
+}
+.experience .experience-details .experience-desc h6{
+    background-color: rgb(236, 234, 234);
+    display: inline-block;
+    padding: 5px;
+}
+.experience .experience-details .experience-desc p{
+    padding-top: 5px;
+}
+/*                  Experience section Ends                   */
+/*                  Services section Starts                   */
+.services{
+    padding: 10px 10px;
+}
+.service-rows{
+    display: flex;
+    flex-direction: column;
+}
+.services .service-rows fieldset{
+    margin: 10px;
+    background-color: #fff;
+}
+.services .service-rows fieldset legend{
+    text-align: center;
+}
+.services .service-cards{
+    text-align: center;
+    margin: 10px 0px;
+    padding: 0px 20px;
+}
+.services .services-icons{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 50px;
+}
+.services .services-icons img{
+    width: 50px;
+    border-radius: 50%;   
+}
+.services .service-cards h4{
+    padding-bottom: 10px;
+}
+.services .service-cards p{
+    text-align: start;
+    padding-bottom: 50px;
+}
+/*                  Services section Ends                   */
+/*              Education section Starts               */
+.education{
+    display: flex;
+    padding-left: 20px;
+}
+.education .Verical-line{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}
+.education .line-with-circles{
+    padding: 0px 0px;
+    width: 10px;
+}
+.education .line-with-circles .line-1{
+    width: 5px;
+    height: 5vh;
+    background-color: royalblue;
+}
+.education .line-with-circles .line-2{
+    width: 5px;
+    height: 30%;
+    background-color: royalblue;
+}
+.education .line-with-circles .line {
+    width: 5px;
+    height: 53%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.education .line-with-circles .big-circle-1 {
+    height: 70px;
+    width: 70px;
+    background-color: royalblue;
+    transform: translate(-32px, 0px);
+    border-radius: 50%;
+}
+.education .line-with-circles .big-circle-1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.education .line-with-circles .circle-with-years{
+    float: right;
+}
+.education .line-with-circles .small-circle {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: royalblue;
+    transform: translateX(-12px);
+    border-radius: 50%;
+}
+.education .line-with-circles .small-circle img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.education .line-with-circles .ex-year{
+    width: 100px;
+    transform: translate(30px, -32px);
+    background-color: royalblue;
+    color: white;
+    text-align: end;
+    padding: 5px;
+}
+.education .education-details{
+    width: 100%;
+    margin-left: 30px;
+    padding: 90px 10px 10px 10px;
+}
+.education .education-details .education-desc{
+    margin: 10px;
+    margin-top: 60px;
+    background-color: #fff;
+    padding: 10px;
+}
+.education .education-details .education-desc h4{
+    padding-bottom: 5px;
+}
+.education .education-details .education-desc h6{
+    background-color: rgb(236, 234, 234);
+    display: inline-block;
+    padding: 5px;
+}
+.education .education-details .education-desc p{
+    padding-top: 5px;
+}
+/*              Education section Ends               */
+/*              Portfolio section Starts               */
+.portfolio .Nav{
+    background-color: rgb(66, 91, 231);
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.portfolio .Nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+}
+.portfolio .Nav ul li{
+    padding: 5px 8px;
+    height: 100%;
+    border-bottom: 2px solid rgb(124, 203, 240);
+}
+.portfolio .Nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.portfolio-cards{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.portfolio-cards .cards{
+    margin: 20px 0px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #dbd9d9, -1px -1px 5px #dbd9d9;
+}
+.portfolio-cards .cards img{
+    width: 100%;
+}
+.portfolio-cards .cards .card-text{
+    padding: 20px;
+}
+.portfolio-cards .cards .card-text h6{
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgb(236, 234, 234);
+}
+.portfolio-cards .cards .card-text h4{
+    padding: 5px;
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.portfolio-cards .cards .card-text p{
+    color: #858080;
+}
+/*              Portfolio section Ends               */
+/*            Feedback-from-mentor section Starts           */
+.feedback-from-mentor{
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+}
+.feedback-from-mentor .mentor-image{
+    text-align: center;
+    transform: translateY(-60px);
+}
+.feedback-from-mentor img{
+    border-radius: 50%;
+}
+.feedback-from-mentor h3{
+    text-align: center;
+    padding-bottom: 10px;
+    transform: translateY(-25px);
+}
+.feedback-from-mentor p{
+    text-align: center;
+    color: #858080;
+}
+.dots{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.dots .small-dots{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0px 8px;
+    background-color: rgb(66, 91, 231);
+}
+.dots .color{
+    background-color: #858080;
+}
+/*            Feedback-from-mentor section Ends             */
+/*                 Blog section starts                      */
+.blog{
+    display: flex;
+    flex-direction: column;
+}
+.blog .blog-card{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.blog .blog-card img{
+    width: 100%;
+}
+.blog .blog-card .blog-card-text{
+    padding: 20px;
+    padding-top: 0px;
+}
+.blog .blog-card .blog-card-text .date-month-div{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-35px);
+}
+.blog .blog-card .blog-card-text .date-month{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(66, 91, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.blog .blog-card .blog-card-text .date-month .date{
+    color: #fff;
+}
+.blog .blog-card .blog-card-text .date-month .month{
+    font-size: 10px;
+    color: #fff;
+}
+.blog .blog-card .blog-card-text small{
+    background-color: rgb(236, 234, 234);
+    padding: 5px;
+    margin-right: 10px;
+}
+.blog .blog-card .blog-card-text h4{
+    padding: 10px 0px;
+}
+.blog .blog-card .blog-card-text p{
+    color: #858080;
+}
+.blog .blog-card .blog-card-text button{
+    font-size: 12px;
+    padding: 12px;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    background-color: rgb(66, 91, 231);
+}
+.view-blog{
+    text-align: center;
+}
+.view-blog button{
+    font-size: 12px;
+    padding: 12px;
+    color: #fff;
+    border: none;
+    background-color: rgb(66, 91, 231);
+}
+/*                 Blog section Ends                      */
+/*                 text-section Starts                    */
+.text-section{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+.text-section p{
+    color: #858080;
+}
+/*                 text-section Ends                      */
+/*                 Contact Me section starts               */
+.contact-me{
+    display: flex;
+    flex-direction: column;
+}
+.contact-me .profile_info{
+    /* width: 100%; */
+    padding: 20px;
+    background-color: #fff;
+}
+.contact-me .profile_info img{
+    width: 100%;
+}
+.contact-me .contact-info-details{
+    display: flex;
+    margin: 10px 0px;
+}
+.contact-me .border-bottom{
+    border-bottom: 1px dotted gray;
+    padding-bottom: 10px;
+}
+.contact-me .contact-info-details h4{  
+    width: 30%;
+}
+.contact-me .contact-info-details h4 span{
+    background-color: rgb(66, 91, 231);
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 5px;
+}
+.contact-me .contact-info-details p{
+    width: 70%;
+}
+.contact-me .padding-bottom{
+    padding-bottom: 20px;
+}
+.message-me{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+.message-me p{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.message-me .Text-Area{
+    border-bottom: 1px solid gray;
+}
+.message-me textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px 0px 5px 0px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.message-me button{
+    font-size: 12px;
+    padding: 12px;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    background-color: rgb(66, 91, 231);
+}
+/*                 Contact Me section Ends                 */
+/*                 Copy rights section Strts                 */
+footer{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    color: #858080;
+}
+/*                 Copy rights section Ends                 */
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .All-content{
+        padding: 100px 60px 20px 60px;
+    }
+
+    .experience .line-with-circles .line {
+        height: 65%;
+    }
+
+    .education .line-with-circles .line {
+        height: 50%;
+    }
+
+    .portfolio .Nav{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .portfolio .Nav ul li{
+        padding: 5px 15px;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .All-content{
+        padding: 140px 60px 20px 60px;
+    }
+/*                  Profile section starts                */
+    .profile_section{
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+    }
+    .profile_info{
+        width: 40%;
+    }
+    .contact-info-details h4 span{
+        font-size: 11px;
+    }
+    .contact-info-details p{
+        font-size: 13px;
+    }
+    .profile_disc{
+        width: 60%;
+    }
+    .profile_disc .name{
+        font-size: 32px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .profile_disc h6{
+        font-size: 12px;
+        padding: 5px 0px;
+    }
+    .profile_disc .social-icons{
+        padding: 5px 0px;
+    }
+    .profile_disc .social-icons span{
+        padding: 0px 20px 0px 0px;
+    }
+    .profile_disc .social-icons i{
+        font-size: 26px;
+    }
+    .profile_disc p{
+        font-size: 11px;
+    }
+    .profile_disc .buttons{
+        padding: 10px 0px;
+    }
+    .profile_disc .buttons .CV{
+        font-size: 10px;
+    }
+    .profile_disc .buttons .contact{
+        font-size: 10px;
+    }
+/*                  Profile section Ends                */
+/*                  Skills section starts                 */
+    .skills_section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .professional_skills{
+        width: 49%;
+    }
+    .personal_skills{
+        width: 49%;
+    }
+
+    .skills_section h3{
+        font-size: 12px;
+    }
+    .skills_section p{
+        font-size: 12px;
+    }
+    .range{
+        padding: 5px 0px 0px 0px;
+    }
+/*                  Skills section Ends                   */
+/*                 Experience section starts              */
+    .experience{
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .experience .line-with-circles .line-1{
+        height: 20%;
+    }
+    .experience .line-with-circles .line-2{
+        height: 55%;
+    }
+    .experience .line-with-circles .line {
+        height: 250%;
+    }
+    .experience .line-with-circles .line .Google-ex-year{
+        padding-right: 15px;
+        transform: translate(-125px, -35px);
+    }
+    .experience .experience-details{
+        transform: translateY(-300px);
+        margin-left: 0px;
+    }
+    .experience .experience-details .experience-desc{
+        width: 40%;
+    }
+    .experience .experience-details .Google-Inc{
+        display: flex;
+        justify-content: end;
+    }
+/*                 Experience section Ends                */
+/*                 Service section starts                 */
+    .services .service-rows{
+        flex-direction: row;
+    }
+/*                 Service section Ends                   */
+/*                 Education section starts               */
+.education{
+    flex-direction: column;
+    padding-left: 0px;
+}
+.education .line-with-circles .line-1{
+    height: 25%;
+}
+.education .line-with-circles .line-2{
+    height: 70%;
+}
+.education .line-with-circles .line {
+    height: 180%;
+}
+.education .line-with-circles .line .Front-end-year{
+    transform: translate(-125px, -35px);
+}
+.education .education-details{
+    transform: translateY(-240px);
+    margin-left: 0px;
+}
+.education .education-details .education-desc{
+    width: 40%;
+}
+.education .education-details .Front-end-course{
+    display: flex;
+    justify-content: end;
+}
+/*                 Education section Ends                 */
+/*                 Portfolio section starts               */
+.portfolio .Nav{
+    width: 50%;
+    margin-left: 25%;
+}
+.portfolio .Nav ul li{
+    padding: 5px 5px;
+}
+.portfolio-cards{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.portfolio-cards .cards{
+    width: 35%;
+}
+.portfolio-cards .cards img{
+    width: 100%;
+}
+.portfolio-cards .cards .card-text{
+    padding: 20px;
+}
+.portfolio-cards .cards .card-text h6{
+    font-size: 8px;
+}
+.portfolio-cards .cards .card-text h4{
+    font-size: 11px;
+}
+.portfolio-cards .cards .card-text p{
+    font-size: 10px;
+}
+/*                 Portfolio section Ends                 */
+/*                 Blog section starts                      */
+.blog{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blog .blog-card{
+    width: 49%;
+}
+.blog .blog-card .blog-card-text .date-month-div{
+    height: 20px;
+    transform: translateY(-25px);
+}
+.blog .blog-card .blog-card-text .date-month{
+    width: 40px;
+    height: 40px;
+}
+.blog .blog-card .blog-card-text small{
+    font-size: 10px;
+}
+.blog .blog-card .blog-card-text h4{
+    font-size: 14px;
+}
+.blog .blog-card .blog-card-text p{
+    font-size: 10px;
+}
+.blog .blog-card .blog-card-text button{
+    font-size: 10px;
+    padding: 8px;
+}
+.view-blog button{
+    font-size: 10px;
+}
+/*                 Blog section Ends                      */
+/*                 Contact Me section starts               */
+.contact-me{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-me .profile_info{
+    width: 49%;
+}
+.message-me{
+    margin-top: 0px;
+    width: 49%;
+}
+.message-me button{
+    padding: 10px 14px;
+    margin-top: 25px;
+}
+/*                 Contact Me section Ends                 */
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .All-content{
+        padding: 180px 120px 20px 120px;
+    }
+/*                  Profile section starts                */
+    .profile_disc .name{
+        font-size: 34px;
+    }
+    .profile_disc h6{
+        font-size: 13px;
+    }
+    .profile_disc .social-icons i{
+        font-size: 30px;
+    }
+    .profile_disc p{
+        font-size: 12px;
+    }
+/*                  Profile section Ends                */
+/*                 Experience section starts              */
+    .experience .line-with-circles .line-2{
+        height: 40%;
+    }
+    .experience .line-with-circles .line {
+        height: 240%;
+    }
+/*                 Experience section Ends                */
+/*                 Education section starts               */
+.education .line-with-circles .line-2{
+    height: 57%;
+}
+.education .line-with-circles .line {
+    height: 175%;
+}
+/*                 Education section Ends                 */
+/*                 Portfolio section starts               */
+.portfolio .Nav{
+    width: 60%;
+    margin-left: 20%;
+}
+.portfolio .Nav ul li{
+    padding: 5px 20px;
+}
+.portfolio .card-2{
+    margin-top: 200px;
+}
+.portfolio-cards .cards{
+    width: 25%;
+}
+.portfolio-cards .cards .card-text{
+    padding: 10px 15px;
+}
+.portfolio-cards .cards .card-text h6{
+    font-size: 8px;
+}
+.portfolio-cards .cards .card-text h4{
+    font-size: 10px;
+}
+.portfolio-cards .cards .card-text p{
+    font-size: 10px;
+}
+/*                 Portfolio section Ends                 */
+/*                 Mentor feedback section starts                 */
+    .feedback-heading{
+        transform: translateY(-320px);
+    }
+    .feedback-from-mentor{
+        transform: translateY(-320px);
+        margin: 60px 20px 20px 20px;
+    }
+    .dots{
+        transform: translateY(-180px);
+    }
+/*                 Mentor feedback section starts                 */
+/*                 Blog section starts                      */
+.blog .blog-card .blog-card-text p{
+    font-size: 11px;
+}
+.blog .blog-card .blog-card-text button{
+    font-size: 10px;
+    padding: 8px;
+}
+.view-blog button{
+    padding: 12px 20px;
+}
+/*                 Blog section Ends                      */
+/*                 Contact Me section starts               */
+.message-me p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.message-me button{
+    padding: 10px 16px;
+    margin-top: 50px;
+}
+/*                 Contact Me section Ends                 */
+ }
+
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .All-content{
+        padding: 270px 210px 20px 210px;
+    }
+/*                  Profile section starts                */
+    .profile_disc .name{
+        font-size: 40px;
+    }
+    .profile_disc h6{
+        font-size: 14px;
+    }
+    .profile_disc .social-icons i{
+        font-size: 36px;
+    }
+    .profile_disc p{
+        font-size: 14px;
+    }
+    .profile_disc .buttons .CV{
+        font-size: 12px;
+        padding: 10px 14px;
+    }
+    .profile_disc .buttons .contact{
+        font-size: 12px;
+        padding: 10px 14px;
+    }
+/*                  Profile section Ends                */
+/*                 Experience section starts              */
+    .experience .line-with-circles .line-2{
+        height: 38%;
+    }
+    .experience .line-with-circles .line {
+        height: 210%;
+    }
+/*                 Experience section Ends                */
+/*                 Education section starts               */
+.education .line-with-circles .line-2{
+    height: 57%;
+}
+.education .line-with-circles .line {
+    height: 150%;
+}
+/*                 Education section Ends                 */
+/*                 Portfolio section starts               */
+.portfolio .Nav ul li{
+    padding: 5px 25px;
+}
+.portfolio-cards .cards .card-text h6{
+    font-size: 9px;
+}
+.portfolio-cards .cards .card-text h4{
+    font-size: 12px;
+}
+.portfolio-cards .cards .card-text p{
+    font-size: 11px;
+}
+/*                 Portfolio section Ends                 */
+/*                 Mentor feedback section starts                 */
+    .feedback-heading{
+        transform: translateY(-320px);
+    }
+    .feedback-from-mentor{
+        transform: translateY(-325px);
+    }
+    .dots{
+        transform: translateY(-200px);
+    }
+/*                 Mentor feedback section starts                 */
+/*                 Blog section starts                      */
+.blog .blog-card .blog-card-text p{
+    font-size: 12px;
+}
+.blog .blog-card .blog-card-text button{
+    font-size: 10px;
+    padding: 8px 18px;
+}
+.view-blog button{
+    padding: 10px 26px;
+}
+/*                 Blog section Ends                      */
+/*                 Contact Me section starts               */
+.message-me p{
+    font-size: 22px;
+    padding-bottom: 24px;
+}
+.message-me textarea{
+    padding: 10px 0px 10px 0px;
+}
+.message-me .message{
+    padding-bottom: 45px;
+}
+.message-me button{
+    margin-top: 55px;
+}
+/*                 Contact Me section Ends                 */
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }

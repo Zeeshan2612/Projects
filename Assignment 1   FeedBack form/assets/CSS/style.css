@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-bg: #d9eeedfa;
+}
+body{
+    font-family: 'Signika', sans-serif;
+}
+
+/* Whole feedback section start */
+
+.feedback{
+    background-image: url('/assets/Images/assignment-1-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+/* Nav-logo section start */
+
+.nav{
+    padding: 40px 0px 20px 10px;
+}
+.nav img{
+    width: 150px;
+    height: 75px;
+}
+
+/* Nav-logo section Ends */
+
+.feedback-details{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Text-image-fiels section start */
+
+.text-image-fiels{
+    padding: 10px 40px;
+    width: 100%;
+}
+.text-image-fiels p{
+    letter-spacing: 2px;
+    color: darkcyan;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.text-image-fiels .text{
+    margin-bottom: 20px;
+}
+.text-image-fiels h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+/* .text-image-fiels img{
+    width: 300px;
+} */
+
+/* Text-image-fiels section Ends */
+
+
+
+/* feedback-form-field section start */
+
+.feedback-form-field{
+    padding: 50px 20px 50px 40px;
+    
+    width: 100%;
+}
+.feedback-form-field form{
+    padding: 15px;
+    box-shadow: 1px 1px 10px rgb(223, 222, 222), -1px -1px 10px rgb(223, 222, 222);
+    background-color: #fff;
+}
+.satisfaction{
+    margin-bottom: 10px;
+}
+.satisfaction h2{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.numbers{
+    /* width: 100%; */
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.numbers span{
+    /* padding: 0px 3.9px; */
+    font-weight: 900;
+    display: block;
+}
+.num3{
+    color: rgb(29, 122, 122);
+    font-size: 17px;
+}
+.range{
+    width: 100%;
+    height: 15px;
+    appearance: none;
+    border-radius: 15px;
+    outline: none;
+    background-color: #d9eeedfa;
+    overflow: hidden;
+}
+.range::-webkit-slider-thumb{
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 5px solid #faecec;
+    background-color: rgb(29, 122, 122);
+    box-shadow: -412px 0 0 400px rgb(29, 122, 122);
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+}
+.ratings div{
+    font-size: 10px;
+}
+textarea{
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 10px;
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: #d9eeedfa;
+}
+.question{
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 0.1px solid rgb(221, 220, 220);
+}
+.question h2{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.radio-check{
+    margin-top: 10px;
+}
+.radio-check h4{
+    font-size: 12px;
+}
+.radio-check input{
+    margin-right: 8px;
+    margin-left: 3px;
+}
+input[type="radio"]{
+    transform: scale(1.5);
+}
+.radio-check label{
+    margin-right: 24px;
+}
+.feedback-btn{
+    margin: 20px 0px;
+}
+.feedback-btn button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(29, 122, 122);
+    color: #fff;
+}
+/* feedback-form-field section start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for differnt screen start */
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .nav img{
+        width: 160px;
+        height: 80px;
+    }
+    .feedback-details{
+        /* padding-bottom: 50px; */
+        display: flex;
+        flex-direction: column;
+    }
+
+/* Text-image-fiels section start */
+
+.text-image-fiels{
+    padding: 10px 40px;
+    width: 100%;
+}
+.text-image-fiels p{
+    font-size: 22px;
+}
+.text-image-fiels .text{
+    margin-bottom: 30px;
+}
+.text-image-fiels h1{
+    font-size: 60px;
+    line-height: 60px;
+}
+.text-image-fiels img{
+    /* width: 450px; */
+}
+
+/* Text-image-fiels section Ends */
+
+/* feedback-form-field section start */
+
+.satisfaction{
+    margin-bottom: 10px;
+}
+.satisfaction h2{
+    font-size: 26px;
+    line-height: 20px;
+}
+.numbers span{
+    /* padding: 0px 12px; */
+}
+.ratings div{
+    font-size: 16px;
+}
+.text-area textarea{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.question h2{
+    font-size: 20px;
+}
+.radio-check{
+    padding-top: 10px;
+}
+.radio-check h4{
+    font-size: 18px;
+}
+.radio-check input{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.radio-check label{
+    font-weight: 500;
+    margin-right: 50px;
+}
+input[type="radio"]{
+    transform: scale(2);
+}
+.feedback-btn{
+    margin: 30px 0px;
+}
+
+
+/* feedback-form-field section Ends */
+
+ }
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .nav img{
+        width: 200px;
+        height: 100px;
+    }
+    .feedback-details{
+        display: flex;
+        flex-direction: column;
+    }
+
+/* Text-image-fiels section start */
+
+.text-image-fiels{
+    padding: 10px 40px;
+    width: 100%;
+}
+.text-image-fiels p{
+    font-size: 26px;
+}
+.text-image-fiels .text{
+    margin-bottom: 40px;
+}
+.text-image-fiels h1{
+    font-size: 70px;
+    line-height: 70px;
+}
+.text-image-fiels img{
+    /* width: 650px; */
+}
+
+/* Text-image-fiels section Ends */
+
+/* feedback-form-field section start */
+
+.satisfaction{
+    margin-bottom: 10px;
+}
+.satisfaction h2{
+    font-size: 36px;
+    line-height: 30px;
+}
+.numbers span{
+    /* padding: 0px 20px; */
+}
+.ratings div{
+    font-size: 16px;
+}
+.text-area textarea{
+    font-size: 26px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.question{
+    padding-bottom: 30px;
+}
+.question h2{
+    font-size: 30px;
+    line-height: 32px;
+}
+.radio-check{
+    font-size: 26px;
+}
+.radio-check h4{
+    margin-top: 10px;
+    font-size: 26px;
+}
+.radio-check input{
+    margin-left: 10px;
+}
+.radio-check label{
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 100px;
+}
+input[type="radio"]{
+    transform: scale(2.5);
+}
+.feedback-btn{
+    margin: 50px 0px;
+}
+.feedback-btn button{
+    height: 60px;
+}
+
+
+
+
+/* feedback-form-field section Ends */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .nav{
+        padding: 40px 0px 40px 10px;
+    }
+    .nav img{
+        width: 200px;
+        height: 100px;
+    }
+    .feedback-details{
+        display: flex;
+        flex-direction: row;
+    }
+    /* Text-image-fiels section start */
+
+.text-image-fiels{
+    padding: 10px 40px;
+    width: 50%;
+}
+.text-image-fiels p{
+    font-size: 16px;
+}
+.text-image-fiels .text{
+    margin-bottom: 40px;
+}
+.text-image-fiels h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+.text-image-fiels img{
+    /* width: 350px; */
+}
+
+/* Text-image-fiels section Ends */
+
+/* feedback-form-field section start */
+.feedback-form-field{
+    width: 50%;
+    padding: 0;
+}
+.feedback-form-field form{
+    padding: 40px;
+}
+.satisfaction{
+    margin-bottom: 30px;
+}
+.satisfaction h2{
+    font-size: 26px;
+    line-height: 22px;
+}
+.numbers span{
+    /* padding: 0px 10.5px; */
+}
+.ratings div{
+    font-size: 14px;
+}
+.text-area textarea{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.question{
+    padding-bottom: 25px;
+}
+.question h2{
+    font-size: 20px;
+    line-height: 21px;
+}
+.radio-check{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.radio-check h4{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.radio-check label{
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 40px;
+}
+input[type="radio"]{
+    transform: scale(2.3);
+}
+.feedback-btn{
+    margin: 40px 0px;
+}
+.feedback-btn button{
+    height: 50px;
+}
+
+
+
+
+/* feedback-form-field section Ends */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .nav{
+        padding: 50px 0px 50px 10px;
+    }
+    .nav img{
+        width: 220px;
+        height: 110px;
+    }
+    .feedback-details{
+        display: flex;
+        flex-direction: row;
+    }
+    /* Text-image-fiels section start */
+
+.text-image-fiels{
+    padding: 10px 40px;
+    width: 50%;
+}
+.text-image-fiels p{
+    font-size: 18px;
+}
+.text-image-fiels .text{
+    margin-bottom: 50px;
+}
+.text-image-fiels h1{
+    font-size: 60px;
+    line-height: 60px;
+}
+.text-image-fiels img{
+    /* width: 400px; */
+}
+
+/* Text-image-fiels section Ends */
+
+/* feedback-form-field section start */
+.feedback-form-field{
+    width: 50%;
+    padding: 0;
+}
+.feedback-form-field form{
+    padding: 50px;
+}
+.satisfaction{
+    margin-bottom: 30px;
+}
+.satisfaction h2{
+    font-size: 32px;
+    line-height: 30px;
+}
+.numbers span{
+    /* padding: 0px 13.7px; */
+}
+.ratings div{
+    font-size: 17px;
+}
+.text-area textarea{
+    font-size: 20px;
+    font-weight: 400;
+}
+.question{
+    padding-bottom: 25px;
+}
+.question h2{
+    font-size: 26px;
+    line-height: 27px;
+}
+.radio-check{
+    font-size: 22px;
+    padding-top: 15px;
+}
+.radio-check h4{
+    font-size: 22px;
+}
+.radio-check label{
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 70px;
+}
+input[type="radio"]{
+    transform: scale(2.8);
+}
+.feedback-btn{
+    margin: 60px 0px;
+}
+.feedback-btn button{
+    height: 60px;
+}
+
+
+
+
+/* feedback-form-field section Ends */
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .nav{
+        padding: 60px 0px 60px 10px;
+    }
+    .nav img{
+        width: 240px;
+        height: 120px;
+    }
+    .feedback-details{
+        display: flex;
+        flex-direction: row;
+    }
+    /* Text-image-fiels section start */
+
+.text-image-fiels{
+    padding: 10px 40px;
+    width: 50%;
+}
+.text-image-fiels p{
+    font-size: 20px;
+}
+.text-image-fiels .text{
+    margin-bottom: 60px;
+}
+.text-image-fiels h1{
+    font-size: 70px;
+    line-height: 70px;
+}
+.text-image-fiels img{
+    /* width: 500px; */
+}
+
+/* Text-image-fiels section Ends */
+
+/* feedback-form-field section start */
+.feedback-form-field{
+    width: 50%;
+    padding: 0;
+}
+.feedback-form-field form{
+    padding: 60px;
+}
+.satisfaction{
+    margin-bottom: 40px;
+}
+.satisfaction h2{
+    font-size: 40px;
+    line-height: 35px;
+}
+.numbers{
+    padding-bottom: 8px;
+}
+.numbers span{
+    /* padding: 0px 16.8px; */
+}
+.ratings div{
+    font-size: 20px;
+}
+.text-area textarea{
+    font-size: 22px;
+    font-weight: 400;
+}
+.question{
+    padding-bottom: 30px;
+}
+.question h2{
+    font-size: 30px;
+    line-height: 31px;
+}
+.radio-check{
+    font-size: 22px;
+}
+.radio-check h4{
+    font-size: 26px;
+}
+.radio-check label{
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 90px;
+}
+input[type="radio"]{
+    transform: scale(2.8);
+}
+.feedback-btn{
+    margin: 70px 0px;
+}
+.feedback-btn button{
+    height: 70px;
+    font-size: 20px;
+}
+
+
+
+
+/* feedback-form-field section Ends */
+ }
+
+/* Media Query for differnt screen Ends */
+
+
+ /* Whole feedback section Ends */

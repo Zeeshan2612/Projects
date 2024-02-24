@@ -1,0 +1,325 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black !important;
+}
+/* .main{
+    background-color: black;
+} */
+/*              Logo and SideBar section Start                   */
+.Logo-SideBar{
+    /* background-color: black; */
+    height: 200vh;
+    /* padding: 20px; */
+    border-right: 1px solid #262626;
+}
+.sideBar_container{
+    
+    /* padding: 20px 60px 20px 12px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.logo_text_wrapper{
+    max-width: 150px;
+    padding: 20px;
+}
+.logo_text_wrapper img{
+    width: 100%;
+}
+.sideBar_items{
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 180px;
+}
+.sideBar_items img{
+    width: 17px;
+}
+.sideBar_items_icon{
+    display: inline;
+}
+.sideBar_items_icon .reels_icon{
+    filter: invert(1);
+}
+.sideBar_items_icon i{
+    color: #fff;
+}
+.sideBar_items p{
+    display: inline;
+    color: #fff;
+    margin-left: 10px;
+}
+.sideBar_items li{
+    margin: 20px 0px;
+}
+.sideBar_items .sideBar_items_icon{
+    position: relative;
+}
+.sideBar_items .sideBar_items_icon .alert_count{
+    background-color: #ff2f40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 2px;
+    position: absolute;
+    top: -3px;
+    left: 8px;
+    color: #fff;
+}
+.sideBar_items .sideBar_items_icon .profile-photo{
+    border-radius: 50%;
+}
+
+.sideBar_footer{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.sideBar_footer .sideBar_items_icon .bars{
+    width: 17px;
+}
+.sideBar_footer p{
+    display: inline;
+    margin-left: 10px;
+    color: #fff;
+}
+
+
+/*              Logo and SideBar section Ends                   */
+
+/*              Stories and Post section Start                  */
+.Stories-Post{
+    /* background-color: aqua; */
+    height: 100vh;
+}
+.posts_container{
+    padding: 20px 10px 0px 310px;
+}
+/*             Stories section start                     */
+    .stories_header{
+        display: flex;
+        margin: 10px 0px;
+    }
+    .stories_header .stories_box{
+        margin-right: 12px;
+    }
+    .outer-radius{
+        height: 45px;
+        width: 45px;
+        border: 5px solid #833ab4;
+        border-radius: 50%;
+        border: double 3px transparent;
+        background-image: linear-gradient(white, white), linear-gradient(234deg, #5e2af5, #ef0909, #f0f30e);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .outer-radius img{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .stories_header .stories_box p{
+        color: #fff;
+        font-size: 8px;
+        text-align: center;
+        padding-top: 3px;
+        margin: 0;
+    }
+/*             Stories section Ends                        */
+
+/*                Posts section start                     */
+
+    .single_post .post_header .post_profile_section_wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+    .single_post .post_header .post_profile_section_wrapper .post_profile_section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .single_post .post_header .post_profile_section_wrapper .dots_wrapper {
+        width: 30px;
+    }
+    .single_post .post_header .post_profile_section_wrapper .post_profile_section .story_image_container{
+        width: 25px;
+    }
+    .single_post .post_header .post_profile_section_wrapper .post_profile_section .story_image_container img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    .single_post .post_header .post_profile_section_wrapper .post_profile_section .post_name_location{
+        padding-left: 10px;
+    }
+    .single_post .post_header .post_profile_section_wrapper .post_profile_section .profile_name{
+        font-size: 12px;
+        color: #fff;
+        margin-bottom: 0;
+    }
+    .single_post .post_header .post_profile_section_wrapper .post_profile_section .profile_name span{
+        color: gray;
+    }
+    .single_post .post_header .post_profile_section_wrapper .post_profile_section p{
+        font-size: 10px;
+        color: #fff;
+        margin-bottom: 0;
+    }
+    .single_post_container .single_post .post_image img{
+        border-radius: 3px;
+    }
+    .single_post_container .single_post .post_footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 8px 0px;
+    }
+    .single_post_container .single_post .post_footer .action_items{
+        display: flex;
+        align-items: center;
+    }
+    .single_post_container .single_post .post_footer .action_items .like{
+        width: 30px;
+    }
+    .single_post_container .single_post .post_footer .action_items .like i{
+        font-size: 22px;
+        color: #b90606;
+    }
+    .single_post_container .single_post .post_footer .action_items .chat{
+        width: 35px;
+    }
+    .single_post_container .single_post .post_footer .action_items .chat img{
+        width: 26px;
+    }
+    .single_post_container .single_post .post_footer .action_items .share{
+        width: 30px;
+    }
+    .single_post_container .single_post .post_footer .action_items .share img{
+        width: 26px;
+    }
+    .single_post_container .single_post .post_footer .save_btn{
+        width: 30px;
+    }
+    .single_post_container .single_post .post_footer .save_btn img{
+        width: 26px;
+        margin-left: 5px;
+    }
+    .single_post_container .single_post .likes{
+        font-size: 14px;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    .single_post_container .single_post .profile-name{
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    .single_post_container .single_post .view_commemt{
+        color: gray;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .single_post_container .single_post .add_comment{
+        color: gray;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+/*                Posts section start                     */
+
+/*              Stories and Post section Ends                   */
+
+/*              Accounts and Suggestions section Start          */
+.Accounts-Suggestions{
+    /* background-color: chartreuse; */
+    height: 100vh;
+}
+.Accounts-Suggestions .account_container{
+    padding-right: 150px;
+    padding-left: 20px;
+}
+.Accounts-Suggestions .account_container .account_header_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+.Accounts-Suggestions .account_container .account_header_section .account_deatils{
+    display: flex;
+    align-items: center;
+}
+.Accounts-Suggestions .account_container .account_header_section .account_profile_image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.Accounts-Suggestions .account_container .account_header_section .account_description p{
+margin-bottom: 0;
+font-size: 12px;
+font-weight: 500;
+color: #fff;
+}
+.Accounts-Suggestions .account_container .account_header_section .account_description .Real_Name{
+    font-size: 11px;
+    color: gray;
+}
+.Accounts-Suggestions .account_container .account_header_section .blue_label{
+    font-size: 10px;
+    color: rgb(52, 112, 180);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.Accounts-Suggestions .account_container .suggestion_section .suggestion_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.Accounts-Suggestions .account_container .suggestion_section .suggestion_header p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.Accounts-Suggestions .account_container .suggestion_section .suggestion_header .Suggestion-for-you{
+    color: gray;
+}
+.Accounts-Suggestions .account_container .suggestion_section .suggestion_header .See-All{
+    color: #fff;
+}
+
+.Accounts-Suggestions .account_container .suggestion_section .account_header_section{
+    margin-top: 5px;
+}
+.Accounts-Suggestions .account_container .suggestion_section .account_header_section .account_deatils .account_profile_image{
+    width: 30px;
+    height: 30px;
+}
+.Accounts-Suggestions .account_container .About-part{
+    color: gray;
+    font-size: 9px;
+    margin: 20px 0px;
+}
+.Accounts-Suggestions .account_container .copyright-part{
+    color: gray;
+    font-size: 9px;
+}
+/*              Accounts and Suggestions section Ends           */
+
+
+
+@media (min-width: 1200px) { 
+
+    
+ }
